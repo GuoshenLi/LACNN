@@ -9,10 +9,10 @@ If you have any questions, please contact us, E-mail: fangleyuan@gmail.com or ch
 Requirements: tensorflow 1.3+, python 2.7.
 
 Usage:
-(1) create folder '/Model/LDN' in the current dir, download the LDN mdoel in [], and put the downloaded model in './LACNN/Model/LDN'
+(1) create folder '/Model/LDN' in the current dir, download the LDN mdoel [here](), and put the downloaded model in './LACNN/Model/LDN'
 
-(2) run Generate_attenmap.py to create attention                                                                                                                                                                                                                                                                                                                                                                                                                                                        maps for the UCSD dataset
+(2) run Generate_attenmap.py to create attention maps for the UCSD dataset
 
-(3) run LACNN_train.py to train LACNN, VGG16 model can be found in                                                                                                                                                                                                                                                                                                                                                                                               
+(3) run LACNN_train.py to train LACNN, VGG16.npy file can be found in [here](https://github.com/machrisaa/tensorflow-vgg)                                                                                                                                                                                                                                                                                                                                                                                           
 
 (4) run LACNN_test.py to test LACNN
