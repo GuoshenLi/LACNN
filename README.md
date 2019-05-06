@@ -9,7 +9,7 @@ If you have any questions, please contact us, E-mail: fangleyuan@gmail.com or ch
 Requirements: tensorflow 1.3+, python 2.7.
 
 Usage:
-(1) create folder '/Model/LDN' in the current dir, download the LDN mdoel in [here](), and put the downloaded model in './LACNN/Model/LDN'
+(1) create folder '/Model/LDN' in the current dir, download the LDN mdoel in [here](https://drive.google.com/drive/folders/1AYptnt5MqjWZ3-zYXS_Bvh48Ac_d5Xvz), and put the downloaded model in './LACNN/Model/LDN'
 
 (2) run Generate_attenmap.py to create attention maps for the UCSD dataset
 
