@@ -4,7 +4,7 @@ This code is for our paper "Attention to Lesion: Lesion-Aware Convolutional Neur
 
 L. Fang, C. Wang, S. Li, H. Rabbani, X. Chen and Z. Liu, "Attention to Lesion: Lesion-Aware Convolutional Neural Network for Retinal Optical Coherence Tomography Image Classification," IEEE Transactions on Medical Imaging, 2019.
 
-If you have any questions, please contact us, E-mail:fangleyuan@gmail.com or chongwang@hnu.edu.cn
+If you have any questions, please contact us, E-mail: fangleyuan@gmail.com or chongwang@hnu.edu.cn
 
 Requirements: tensorflow 1.3+, python 2.7.
 
