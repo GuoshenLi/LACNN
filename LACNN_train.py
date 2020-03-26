@@ -79,7 +79,7 @@ if __name__ == '__main__':
     label_dict = {'CNV': 0, 'DRUSEN': 1, 'DME': 2, 'NORMAL': 3}
     (val_target, val_filenames, val_images) = utils.get_val_samples(image_lists, "validation", images_dir, label_dict)
     val_attenmap = utils.get_batch_of_attenmap_from_name(val_filenames)
-    val_attenmap = np.zeros_like(val_attenmap)
+    # val_attenmap = np.zeros_like(val_attenmap)
     print('Starting training')
     Train_Loss = 0
     Train_Acc = 0
@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
         (train_target, train_filenames, train_images) = utils.get_batch_of_samples(path_train, batch_size, label_dict)
         train_attenmap = utils.get_batch_of_attenmap_from_name(train_filenames)
-        train_attenmap = np.zeros_like(train_attenmap)
+        # train_attenmap = np.zeros_like(train_attenmap)
         _, train_acc, loss = sess.run([optimizer, accuracy, loss_total],
                                       feed_dict={input_holder: train_images,
                                                  label_holder: train_target,
