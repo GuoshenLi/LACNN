@@ -66,7 +66,7 @@ if __name__ == '__main__':
         for i, path in enumerate(test_filenames):
             test_images = cv2.resize(cv2.imread(path), (img_size[0], img_size[1]))[np.newaxis, :]
             test_attenmap = utils.get_batch_of_attenmap_from_name([path])[np.newaxis, :]
-            test_attenmap = np.zeros_like(test_attenmap)
+            # test_attenmap = np.zeros_like(test_attenmap)
             ground_truth = np.array(label_dict[category])[np.newaxis, :]
             test_target.append(ground_truth)
             prob = sess.run(probability, feed_dict={input_holder: test_images,
